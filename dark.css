@@ -3,7 +3,13 @@
       display: none;
       margin-top: 20px;
     }
-
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-wrap: break-word;
+    overflow-wrap: break-word;
+}
     #loading p {
       font-weight: bold;
       font-size: 38px;

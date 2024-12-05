@@ -16,19 +16,38 @@ body {
             color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang hitam */
             padding: 20px; /* Menambahkan padding di dalam kontainer */
             border-radius: 8px; /* Menambahkan sudut melengkung pada kontainer */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan pada kontainer */
         }
         h1 {
             text-align: center; /* Menyelaraskan judul di tengah */
             color: #9370DB; /* Mengubah warna huruf menjadi ungu terang */
+            font-size: 2.5em; /* Ukuran font untuk judul */
+            margin-bottom: 20px; /* Margin bawah untuk judul */
+        }
+        p {
+            font-size: 1.2em; /* Ukuran font untuk paragraf */
+            margin-bottom: 15px; /* Margin bawah untuk paragraf */
         }
         ul {
             margin: 10px 0; /* Margin antar daftar */
             padding-left: 20px; /* Memberikan padding di sebelah kiri untuk daftar */
             color: white; /* Mengubah warna huruf dalam daftar menjadi putih */
+            font-size: 1.1em; /* Ukuran font untuk daftar */
+            list-style-type: none; /* Menghilangkan bullet default */
         }
         li {
-            margin: 5px 0; /* Margin antar item daftar */
+            margin: 10px 0; /* Margin antar item daftar */
             color: white; /* Mengubah warna huruf item daftar menjadi putih */
+            position: relative; /* Mengatur posisi relatif untuk efek */
+            padding-left: 20px; /* Memberikan padding di sebelah kiri untuk item */
+        }
+        li::before {
+            content: '•'; /* Menambahkan simbol centang sebelum item */
+            color: #9370DB; /* Warna simbol centang */
+            position: absolute; /* Mengatur posisi simbol centang */
+            left: 0; /* Mengatur posisi kiri */
+            font-size: 1.5em; /* Ukuran font untuk simbol centang */
+            line-height: 1; /* Menyelaraskan simbol centang dengan teks */
         }
     #loading p {
       font-weight: bold;

@@ -4,12 +4,23 @@
       margin-top: 20px;
     }
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-wrap: break-word;
-    overflow-wrap: break-word;
-}
+            font-family: 'Arial', sans-serif; /* Memilih font yang mudah dibaca */
+            font-size: 16px; /* Ukuran font yang cukup besar */
+            line-height: 1.5; /* Jarak antar baris */
+            margin: 20px; /* Margin untuk keseluruhan halaman */
+        }
+        .container1 {
+            max-width: 600px; /* Lebar maksimum kontainer */
+            margin: auto; /* Mengatur kontainer agar berada di tengah */
+        }
+        h1 {
+            text-align: center; /* Menyelaraskan judul di tengah */
+        }
+        b {
+            margin: 10px 0; /* Margin antar paragraf */
+            text-align: justify; /* Menyelaraskan teks agar rata kiri dan kanan */
+            letter-spacing: 0.5px; /* Jarak antar huruf */
+        }
     #loading p {
       font-weight: bold;
       font-size: 38px;

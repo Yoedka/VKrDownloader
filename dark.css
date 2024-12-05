@@ -12,14 +12,23 @@ body {
         .container1 {
             max-width: 600px; /* Lebar maksimum kontainer */
             margin: auto; /* Mengatur kontainer agar berada di tengah */
+            background-color: black; /* Mengubah warna latar belakang menjadi hitam */
+            color: white; /* Mengubah warna teks menjadi putih agar kontras dengan latar belakang hitam */
+            padding: 20px; /* Menambahkan padding di dalam kontainer */
+            border-radius: 8px; /* Menambahkan sudut melengkung pada kontainer */
         }
         h1 {
             text-align: center; /* Menyelaraskan judul di tengah */
+            color: #9370DB; /* Mengubah warna huruf menjadi ungu terang */
         }
-        b {
-            margin: 10px 0; /* Margin antar paragraf */
-            text-align: justify; /* Menyelaraskan teks agar rata kiri dan kanan */
-            letter-spacing: 0.5px; /* Jarak antar huruf */
+        ul {
+            margin: 10px 0; /* Margin antar daftar */
+            padding-left: 20px; /* Memberikan padding di sebelah kiri untuk daftar */
+            color: white; /* Mengubah warna huruf dalam daftar menjadi putih */
+        }
+        li {
+            margin: 5px 0; /* Margin antar item daftar */
+            color: white; /* Mengubah warna huruf item daftar menjadi putih */
         }
     #loading p {
       font-weight: bold;
